@@ -1,2 +1,5 @@
 Añada a esta carpeta los anexos de la etapa de design thinking, pueden ser entrevistas, videos, encuestas, audios, fotos de lluvia de ideas, etc. 
 Cree un .txt donde explique qué es cada anexo.
+
+- Proyecto no.1 Integracion Ing. Software Base de datos 1: El siguiente documento fue utilizado en el primer sprint de la creacion del proyecto, 
+esto al contener el plan original de como se construia la base de datos del proyecto y poder construir los endpoints del backend en base a dicha planeacion. 
