@@ -1,0 +1,34 @@
+================================================================================
+           INVERSIONES ELOHIM SOLUTION - ENLACES DE REPOSITORIOS
+================================================================================
+
+Proyecto: Sistema de Comercio Electrónico y Gestión Multi-Inquilino (DM Hub)
+Organización: Inversiones Elohim / angc-labs
+
+--------------------------------------------------------------------------------
+1. ENLACES DE ACCESO AL CÓDIGO FUENTE (GITHUB)
+--------------------------------------------------------------------------------
+
+- Repositorio Principal (Orquestación, Docker, Nginx, CI/CD, Tests API):
+  https://github.com/angc-labs/CC3090-inversiones-elohim-solution
+
+- Submódulo Backend (ASP.NET Core Web API, .NET 10, Clean Architecture, EF Core):
+  https://github.com/angc-labs/CC3090-inversiones-elohim-solution-backend
+
+- Submódulo Frontend (Next.js 16, React 19, TypeScript, Tailwind CSS):
+  https://github.com/angc-labs/CC3090-inversiones-elohim-solution-frontend
+
+- Submódulo Documentación Técnica (Docusaurus 3, Guías y Arquitectura):
+  https://github.com/angc-labs/CC3090-inversiones-elohim-solution-docs
+
+- Tablero de Gestión del Proyecto (Jira):
+  https://cc3090-inversiones-elohim-solution.atlassian.net/jira/software/projects/CIES1/boards/3
+
+--------------------------------------------------------------------------------
+2. DESPLIEGUE EN PRODUCCIÓN
+--------------------------------------------------------------------------------
+El proyecto se despliega de forma automatizada y continua mediante un servicio
+de Dokploy, integrándose directamente con los repositorios de GitHub.
+A través de Dokploy se gestiona la orquestación de contenedores, variables de
+entorno, dominios, certificados SSL y los pipelines de despliegue continuo (CI/CD)
+para los servicios de Backend, Frontend, Base de Datos y Documentación.

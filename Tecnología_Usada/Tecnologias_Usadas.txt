@@ -1,0 +1,79 @@
+================================================================================
+        RESUMEN EJECUTIVO: SELECCIÓN DE TECNOLOGÍAS DEL PROYECTO
+================================================================================
+
+PROYECTO: Inversiones Elohim Solution (DM Hub Multi-Tenant)
+REPOSITORIO: https://github.com/angc-labs/CC3090-inversiones-elohim-solution
+
+--------------------------------------------------------------------------------
+1. DIMENSIONAMIENTO Y REQUISITOS CLAVE
+--------------------------------------------------------------------------------
+- Usuarios: 500 a 2,000 registrados (~200 concurrentes estimados).
+- Rendimiento: Tiempos de respuesta < 2s para catálogo y < 3s para pagos/reservas.
+- Concurrencia y Aislamiento: Soporte de escalabilidad horizontal y separación
+  estricta de datos entre tiendas y sucursales (arquitectura multi-inquilino).
+
+--------------------------------------------------------------------------------
+2. FRAMEWORK DE DESARROLLO BACKEND
+--------------------------------------------------------------------------------
+TECNOLOGÍA: ASP.NET Core Web API (.NET 10 / C#)
+ARQUITECTURA: Clean Architecture (Domain, Application, Infrastructure, API)
+
+Razones de selección:
+- Rendimiento y Escalabilidad: Tiempos de respuesta mínimos y alta eficiencia en
+  operaciones concurrentes e intensivas en CPU frente a Node.js o Python.
+- Tipado Fuerte y Mantenibilidad: Prevención de errores en tiempo de compilación y
+  facilidad de mantenimiento para lógica de negocio financiera y de inventario.
+- Ecosistema Robusto: DI nativo, autenticación JWT, integración fluida con ORM
+  y soporte multiplataforma en contenedores Docker Linux.
+
+--------------------------------------------------------------------------------
+3. FRAMEWORK DE DESARROLLO FRONTEND
+--------------------------------------------------------------------------------
+TECNOLOGÍA: Next.js (versión 16.2 / React 19 / TypeScript)
+ESTILOS: Tailwind CSS v4 + GSAP
+
+Razones de selección:
+- Renderizado Híbrido (SSR / SSG): Crucial para la indexación SEO del catálogo
+  de productos en comercio electrónico y tiempos rápidos de carga inicial (FCP).
+- Productividad y Reactividad: Modularidad basada en Server Components, estado
+  con Zustand/SWR y contratos de tipo seguros con TypeScript.
+- Integración Fluida: Soporte nativo para pasarelas (@stripe/react-stripe-js) y
+  autenticación con Google OAuth.
+
+--------------------------------------------------------------------------------
+4. TECNOLOGÍA DE PERSISTENCIA DE DATOS
+--------------------------------------------------------------------------------
+MOTOR DE BASE DE DATOS: PostgreSQL 16 (Alpine)
+ORM: Entity Framework Core 10 (Npgsql)
+
+Razones de selección:
+- Consistencia ACID Estricta: Garantiza transacciones seguras en compras, evitando
+  sobreventas y desalineación de inventario entre sucursales.
+- Aislamiento Multi-Tenant: Soporte nativo junto con Global Query Filters en EF Core
+  (`TiendaId == CurrentTenantId`), asegurando que ningún usuario acceda a datos ajenos.
+- Deducción Automática: Intercepción en `SaveChangesAsync` para descontar stock
+  por sucursal en el momento exacto en que la reserva se confirma como pagada.
+- Tipos de Datos Híbridos: Almacenamiento JSONB para configuraciones visuales de
+  tiendas sin perder la integridad relacional de clientes, pedidos y productos.
+
+--------------------------------------------------------------------------------
+5. INFRAESTRUCTURA, DEVOPS Y SERVICIOS EXTERNOS
+--------------------------------------------------------------------------------
+- Despliegue y CI/CD: Dokploy conectado directamente a los repositorios de GitHub.
+- Orquestación: Docker & Docker Compose con proxy inverso Nginx y SSL automatizado.
+- Documentación: Docusaurus 3 en contenedor independiente.
+- Servicios Externos: Pasarela Stripe (PCI-DSS), Cloudinary (medios) y Google Auth.
+
+--------------------------------------------------------------------------------
+6. MATRIZ RESUMEN
+--------------------------------------------------------------------------------
+| Componente      | Tecnología Seleccionada | Justificación Principal                  |
+|-----------------|-------------------------|------------------------------------------|
+| Backend API     | ASP.NET Core (.NET 10)  | Alto rendimiento, tipado y Clean Arch    |
+| Frontend Web    | Next.js 16 + React 19   | SSR para SEO, velocidad y UX fluida      |
+| Base de Datos   | PostgreSQL 16 + EF Core | ACID estricto, multi-tenant y JSONB      |
+| Despliegue      | Dokploy + GitHub        | CI/CD automatizado y orquestación Docker |
+| Proxy / Red     | Nginx + Certbot         | Reverse proxy y terminación HTTPS        |
+| Pagos           | Stripe API              | Transacciones seguras y webhooks         |
+================================================================================
