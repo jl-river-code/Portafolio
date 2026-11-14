@@ -8,12 +8,46 @@ DESCRIPCIÓN DE DOCUMENTOS DE APOYO Y ETAPA EN QUE SE USARON:
 
 1. Prototipos Lean UX-1.pdf
    - Etapa: Design Thinking y Prototipado Rápido (Ing. Software 1).
-   - Descripción: Wireframes, prototipos visuales y validación de hipótesis de
-     usuario para el flujo de compra y navegación en la tienda online.
+   - Descripción: Wireframes, prototipos visuales preliminares y validación
+     de hipótesis de usuario para el flujo de compra y navegación.
 
 2. Proyecto no.1 Integracion Ing. Software (3).pdf
    - Etapa: Integración Inicial de Base de Datos 1 e Ing. Software 1.
    - Descripción: Diseño del modelo relacional original, normalización de tablas,
-     relaciones de llaves foráneas y consultas base requeridas para construir
-     las entidades y endpoints iniciales en el backend.
+     relaciones de llaves foráneas y consultas base para los primeros endpoints.
+
+3. Presentacion corte no.2.pptx
+   - Etapa: Corte No. 2 - Captura y Elicitación de Requisitos (Ing. Software 1).
+   - Descripción: Presentación formal de los requisitos funcionales, no
+     funcionales, actores y alcance especificado para Elohim Shop Online.
+
+4. DM Hub Tu tienda única en minutos.pptx
+   - Etapa: Pitch comercial y presentación del producto DM Hub.
+   - Descripción: Presentación de la propuesta de valor, arquitectura
+     multi-inquilino y beneficios comerciales de la plataforma de e-commerce.
+
+5. Sprint 5 - Rediseño, Validacion y Documentacion.pptx
+   - Etapa: Sprint Review - Sprint 5 (Ing. Software 2).
+   - Descripción: Presentación de resultados del Sprint 5: rediseño visual,
+     arquitectura multi-tenant, validaciones de negocio y documentación técnica.
+
+6. Sprint6.pptx
+   - Etapa: Sprint Review - Sprint 6 (Ing. Software 2).
+   - Descripción: Presentación de avances del Sprint 6: mejoras de calidad de vida
+     (Quality of Life Changes), animaciones y retroalimentación interactiva.
+
+7. Sprint7.pptx
+   - Etapa: Sprint Review - Sprint 7 (Ing. Software 2).
+   - Descripción: Presentación de avances del Sprint 7: resolución de deuda
+     técnica acumulada, refactorización de código y pruebas de experiencia de usuario.
+
+8. Sprint 8.pptx
+   - Etapa: Sprint Review - Sprint 8 (Ing. Software 2).
+   - Descripción: Presentación de avances del Sprint 8: tareas de mantenimiento,
+     estabilización y preparación de la plataforma para pruebas en Neurolab UVG.
+
+9. Sprint 9.pptx
+   - Etapa: Sprint Review - Sprint 9 (Ing. Software 2).
+   - Descripción: Presentación de avances del Sprint 9: integración continua (CI),
+     pruebas de regresión automatizada y segunda revisión técnica formal (RTF 2).
 ================================================================================
