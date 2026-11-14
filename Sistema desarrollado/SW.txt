@@ -1,2 +1,41 @@
-Incluya el código desarrollado y el archivo de infraestructura como código para generar el entorno en el que se debe ejecutar su aplicación.
-Incluya un archivo de texto con el link del repositorio en el que se trabajó
+================================================================================
+             SISTEMA DESARROLLADO: GUÍA DE EJECUCIÓN (SW)
+================================================================================
+PROYECTO: Inversiones Elohim Solution (DM Hub Multi-Tenant)
+ARCHIVO: CC3090-inversiones-elohim-solution.zip
+
+El archivo .zip contiene el código fuente completo del sistema y la configuración
+de infraestructura lista para levantar con Docker y Docker Compose.
+
+--------------------------------------------------------------------------------
+PASOS PARA EJECUTAR LA APLICACIÓN DESDE EL .ZIP
+--------------------------------------------------------------------------------
+
+1. Descomprimir el archivo zip:
+   unzip CC3090-inversiones-elohim-solution.zip
+   cd CC3090-inversiones-elohim-solution
+
+2. Configurar variables de entorno (desde las plantillas provistas):
+   cp .env.example .env
+   cp backend/.env.example backend/.env
+   cp frontend/.env.example frontend/.env
+
+3. Levantar los contenedores:
+   docker compose up -d --build
+
+   (Opcional) Mediante el script incluido en la raíz del proyecto:
+   ./deploy.sh
+
+--------------------------------------------------------------------------------
+ACCESOS DEL SISTEMA
+--------------------------------------------------------------------------------
+- Frontend Web (Cliente y Admin):  http://localhost:3000
+- Backend API (Documentación Swagger): http://localhost:5000/swagger
+
+Credenciales por defecto:
+- Super Admin: superadmin@dmhub.gt / SuperAdmin123!
+- Usuario Demo: carlos.demo@dmhub.gt / Demo123! o cliente.demo@dmhub.gt / Demo123!
+
+Para los enlaces oficiales a los repositorios de código y tablero de Jira,
+consulte el archivo Repositorio_Links.txt.
+================================================================================

@@ -1,0 +1,24 @@
+================================================================================
+                    CARPETA: IMPLEMENTACIÓN DEL SISTEMA
+================================================================================
+PROYECTO: Inversiones Elohim Solution (DM Hub)
+CURSO: CC3091 – Ingeniería de Software (Semestres I y II - 2026)
+
+RESUMEN DE SPRINTS Y TAREAS DE MEJORA AL PROCESO:
+
+- Sprint 1: Primer Sprint Scrum - Inicio del Programa (Ing. Software 1).
+- Sprint 2: Segundo Sprint Scrum - Continuacion Vista Cliente (Ing. Software 1).
+- Sprint 3: Tercer Sprint Scrum - Prototipo Vista Cliente (Ing. Software 1).
+- Sprint 4: Cuarto Sprint Scrum - Vista Administrativa (Ing. Software 1).
+- Sprint 5: Quinto Sprint Scrum - Rediseño, Validación y Documentación.
+  * Tarea de Mejora al Proceso 1: Revisión Técnica Formal (RTF 1).
+- Sprint 6: Sexto Sprint Scrum - Quality of Life Changes.
+- Sprint 7: Séptimo Sprint Scrum - Resolviendo Deuda Técnica.
+  * Tarea de Mejora al Proceso 2: User Experience 1 (UX 1).
+- Sprint 8: Octavo Sprint Scrum - Mantenimiento y Preparación para Neurolab.
+  * Tarea de Mejora al Proceso 3: User Experience 2 (UX 2 / Neurolab).
+- Sprint 9: Noveno Sprint Scrum - Integración y Regresión Continua.
+  * Tarea de Mejora al Proceso 4: Revisión Técnica Formal 2 (RTF 2) y Seguridad OWASP.
+- Sprint 10: Décimo Sprint Scrum - Actualización y Resolviendo Deuda Técnica.
+  * Tarea de Mejora al Proceso 5: Reflexión sobre la aplicación de metodología Lean.
+================================================================================

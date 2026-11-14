@@ -1,2 +1,31 @@
-Debe Poner en esta carpeta los documentos generados por el equipo de desarrollo en la etapa de design thinking y de análisis y diseño del sistema. Recuerde incluir el User Story Map
-En la carpeta de anexos, todos los documentos que tenga de la parte de design thinking
+================================================================================
+          CARPETA: ANÁLISIS Y DISEÑO / DOCUMENTOS
+================================================================================
+PROYECTO: Inversiones Elohim Solution (DM Hub)
+CURSO: CC3091 – Ingeniería de Software
+
+DESCRIPCIÓN DE DOCUMENTOS EN ESTA CARPETA:
+
+1. Corte 1 Comprendiendo el Problema.pdf:
+   Etapa: Design Thinking y Empatía (Ing. Software 1).
+   Contenido: Brief del proyecto, investigación de necesidades de Inversiones
+   Elohim S.A., mapas de empatía, definición de problemas y visión preliminar.
+
+2. Corte 2 Captura de Requisitos.pdf:
+   Etapa: Elicitación y especificación de Requisitos.
+   Contenido: Requisitos funcionales y no funcionales, casos de uso del sistema,
+   actores, reglas de negocio y restricciones técnicas.
+
+3. Corte 3 Analisis y Diseño.pdf:
+   Etapa: Modelado de Dominio y Diseño de Arquitectura.
+   Contenido: Clean Architecture, diagramas de paquetes, diagrama de clases,
+   modelo de datos relacional y diseño de endpoints de la API.
+
+4. User_Story_Map.pdf:
+   Etapa: Planificación de Entregas Scrum.
+   Contenido: Mapeo integral de historias de usuario, actividades clave, pasos
+   de interacción y división por releases de desarrollo.
+
+5. Subcarpeta Anexos/:
+   Alberga los artefactos complementarios de prototipado UX y diseño de base de datos.
+================================================================================
