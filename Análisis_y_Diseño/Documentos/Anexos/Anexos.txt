@@ -16,38 +16,19 @@ DESCRIPCIÓN DE DOCUMENTOS DE APOYO Y ETAPA EN QUE SE USARON:
    - Descripción: Diseño del modelo relacional original, normalización de tablas,
      relaciones de llaves foráneas y consultas base para los primeros endpoints.
 
-3. Presentacion corte no.2.pptx
-   - Etapa: Corte No. 2 - Captura y Elicitación de Requisitos (Ing. Software 1).
-   - Descripción: Presentación formal de los requisitos funcionales, no
-     funcionales, actores y alcance especificado para Elohim Shop Online.
-
-4. DM Hub Tu tienda única en minutos.pptx
-   - Etapa: Pitch comercial y presentación del producto DM Hub.
-   - Descripción: Presentación de la propuesta de valor, arquitectura
-     multi-inquilino y beneficios comerciales de la plataforma de e-commerce.
-
-5. Sprint 5 - Rediseño, Validacion y Documentacion.pptx
-   - Etapa: Sprint Review - Sprint 5 (Ing. Software 2).
-   - Descripción: Presentación de resultados del Sprint 5: rediseño visual,
-     arquitectura multi-tenant, validaciones de negocio y documentación técnica.
-
-6. Sprint6.pptx
-   - Etapa: Sprint Review - Sprint 6 (Ing. Software 2).
-   - Descripción: Presentación de avances del Sprint 6: mejoras de calidad de vida
-     (Quality of Life Changes), animaciones y retroalimentación interactiva.
-
-7. Sprint7.pptx
-   - Etapa: Sprint Review - Sprint 7 (Ing. Software 2).
-   - Descripción: Presentación de avances del Sprint 7: resolución de deuda
-     técnica acumulada, refactorización de código y pruebas de experiencia de usuario.
-
-8. Sprint 8.pptx
-   - Etapa: Sprint Review - Sprint 8 (Ing. Software 2).
-   - Descripción: Presentación de avances del Sprint 8: tareas de mantenimiento,
-     estabilización y preparación de la plataforma para pruebas en Neurolab UVG.
-
-9. Sprint 9.pptx
-   - Etapa: Sprint Review - Sprint 9 (Ing. Software 2).
-   - Descripción: Presentación de avances del Sprint 9: integración continua (CI),
-     pruebas de regresión automatizada y segunda revisión técnica formal (RTF 2).
+3. Presentaciones.zip
+   - Etapa: Presentaciones de avance, revisiones de sprint y pitch comercial
+     a lo largo del ciclo de vida del proyecto.
+   - Descripción: Archivo comprimido que recopila todas las diapositivas
+     y presentaciones formales elaboradas por el equipo de desarrollo:
+     * DM Hub Tu tienda única en minutos.pptx: Pitch comercial y presentación
+       general de la propuesta de valor y arquitectura multi-inquilino.
+     * Presentacion corte no.2.pptx: Presentación formal del Corte No. 2 de
+       captura y elicitación de requisitos (Ing. Software 1).
+     * Sprint 5 - Rediseño, Validacion y Documentacion.pptx: Revisión del Sprint 5
+       (rediseño, multi-tenancy y validación de reglas de negocio).
+     * Sprint6.pptx: Revisión del Sprint 6 (Quality of Life Changes y UI).
+     * Sprint7.pptx: Revisión del Sprint 7 (deuda técnica y pruebas UX).
+     * Sprint 8.pptx: Revisión del Sprint 8 (mantenimiento y Neurolab).
+     * Sprint 9.pptx: Revisión del Sprint 9 (integración continua y regresión).
 ================================================================================
