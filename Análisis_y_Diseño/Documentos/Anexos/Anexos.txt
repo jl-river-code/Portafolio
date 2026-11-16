@@ -19,6 +19,8 @@ DESCRIPCIÓN DE DOCUMENTOS DE APOYO Y ETAPA EN QUE SE USARON:
 3. Presentaciones.zip
    - Etapa: Presentaciones de avance, revisiones de sprint y pitch comercial
      a lo largo del ciclo de vida del proyecto.
+   - Enlace de descarga en Google Drive:
+     https://drive.google.com/file/d/1S7G9gX4eHs28JAK7k0v99eQLs0uShhMB/view?usp=sharing
    - Descripción: Archivo comprimido que recopila todas las diapositivas
      y presentaciones formales elaboradas por el equipo de desarrollo:
      * DM Hub Tu tienda única en minutos.pptx: Pitch comercial y presentación
